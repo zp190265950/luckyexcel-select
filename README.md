@@ -67,6 +67,7 @@ LuckyExcel.transformExcelToLucky(data,
     function(exportJson, luckysheetfile){
         // Get the worksheet data after conversion
     },
+    10000, // 导入解析的最大行数，默认10000
     function(error){
         // handle error if any thrown
     }
